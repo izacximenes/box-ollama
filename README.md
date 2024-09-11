@@ -2,8 +2,7 @@
 
 A simple Ollama client built with Vue 3, Tailwind CSS, and Tauri.
 
-![Box Ollama Screenshot](/screenshots/2024-09-10_22-11.png) <br />
-![Box Ollama Screenshot](/screenshots/2024-09-10_22-11_1.png)
+![Box Ollama Screenshot](/screenshots/2024-09-10_22-17.png)
 
 ## Features
 
