@@ -16,6 +16,7 @@ import ollama, { OllamaMessage } from "./services/ollama";
 import { ModelResponse } from "ollama";
 import Toaster from '@/components/ui/toast/Toaster.vue'
 import { toast } from "./components/ui/toast";
+import { loadSettings } from "./lib/utils";
 
 const model = ref("");
 const loading = ref(false);
@@ -74,6 +75,7 @@ async function handleChat() {
 }
 
 onMounted(async () => {
+  await loadSettings();
   await fetchModels();
 });
 </script>
