@@ -17,6 +17,7 @@
         "open": true
       },
       "window": {
+       "setAlwaysOnTop": true,
        "startDragging": true,
        "close": true
       }
