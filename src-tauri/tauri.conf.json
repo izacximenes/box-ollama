@@ -6,8 +6,8 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "box-ollama",
-    "version": "0.1.0"
+    "productName": "Box Ollama",
+    "version": "0.1.1"
   },
   "tauri": {
     "allowlist": {
@@ -24,7 +24,7 @@
     },
     "windows": [
       {
-        "title": "box-ollama",
+        "title": "Box Ollama",
         "width": 500,
         "height": 600,
         "decorations": false
